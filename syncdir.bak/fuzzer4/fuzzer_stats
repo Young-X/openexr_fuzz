@@ -1,0 +1,27 @@
+start_time        : 1480421110
+last_update       : 1480885091
+fuzzer_pid        : 1473
+cycles_done       : 1112
+execs_done        : 357368916
+execs_per_sec     : 420.88
+paths_total       : 5069
+paths_favored     : 412
+paths_found       : 625
+paths_imported    : 592
+max_depth         : 18
+cur_path          : 1349
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 14.08%
+unique_crashes    : 104
+unique_hangs      : 149
+last_path         : 1480879290
+last_crash        : 1480872178
+last_hang         : 1480885086
+execs_since_crash : 9604051
+exec_timeout      : 400
+afl_banner        : fuzzer4
+afl_version       : 2.35b
+command_line      : afl-fuzz -i- -o syncdir -S fuzzer4 -- openexr/OpenEXR/exr2aces/build/exr2aces @@ /dev/null
